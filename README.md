@@ -1,5 +1,5 @@
 # I2C_Communication_STM32_Arduino_LED_Control
-This project demonstrates communication between an STM32 microcontroller (Blue Pill) and an Arduino board over I2C. The STM32 controls four PWM signals to adjust LED brightness based on data received from the Arduino.
+This project demonstrates communication between an STM32 microcontroller (STM32F401CCU6) and an Arduino board over I2C. The STM32 controls four PWM signals to adjust LED brightness based on data received from the Arduino.
 
 # Overview
 The STM32 microcontroller initializes four timers (TIM1, TIM2, TIM3, TIM4) in PWM mode to control LEDs connected to different GPIO pins. The intensity levels of these LEDs are set based on data received over the I2C bus from an Arduino board. The Arduino, acting as the I2C master, sends an array of integers representing PWM values to the STM32.
