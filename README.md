@@ -8,7 +8,7 @@ The STM32 microcontroller initializes four timers (TIM1, TIM2, TIM3, TIM4) in PW
 STM32 Blue Pill (STM32F103C8T6): Main microcontroller board.
 Arduino: Used for sending data over the I2C bus.
 LEDs: Connected to PWM channels of timers TIM1, TIM2, TIM3, and TIM4 on the STM32.
-I2C Interface: STM32 configured as the I2C slave (address 0x05), Arduino as the master.
+I2C Interface: STM32 configured as the I2C Master, Arduino as the Slave  (address 0x05).
 
 # How to Use
 # STM32 Setup:
