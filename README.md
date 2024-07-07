@@ -26,6 +26,6 @@ Once data (an array of 4 integers) is received, it sets PWM values for each time
 # File Structure
 STM32/main.c: Main program file for STM32 microcontroller.
 Arduino_code.ino: Arduino sketch for I2C communication.
-README.md: This file containing project information.
+README.md: This file contains project information.
 
 
